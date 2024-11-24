@@ -9,8 +9,7 @@ COPY ./pyproject.toml \
   /wheel/
 
 
-RUN python -m pip wheel --wheel-dir=/wheel --requirement ./requirements.txt \
-  && rm -rf ~/.cache/pip
+RUN python -m pip wheel --no-cache --wheel-dir=/wheel --requirement ./requirements.txt
 
 RUN python -m pipx run --no-cache nb-cli generate -f /tmp/bot.py
 
