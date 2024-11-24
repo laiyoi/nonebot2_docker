@@ -1,7 +1,7 @@
 nonebot_plugin_smart_reply
 nonebot_plugin_sd_webui
 nonebot_plugin_crazy_thursday
-nonebot_plugin_error_alert
+nonebot_plugin_error_alert>=0.1.2
 nonebot_plugin_memes>=0.7.10
 nonebot_plugin_help
 nonebot-plugin-wolf-kill
