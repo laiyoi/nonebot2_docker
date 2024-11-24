@@ -1,0 +1,8 @@
+accounts/
+pycache/
+data/audio_temp
+data/ottohzys
+data/pjsk
+localstore/abot/
+*.pyc
+plugins/#/
