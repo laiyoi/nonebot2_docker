@@ -137,7 +137,7 @@ nonebot-plugin-qrcode2==0.2.2
 nonebot-plugin-sd-webui==0.1.2
 nonebot-plugin-send-anything-anywhere==0.6.1
 nonebot-plugin-smart-reply==0.15.114514
-nonebot-plugin-talk-with-chatgpt==0.6.4
+nonebot-plugin-talk-with-chatgpt==0.7.5
 nonebot-plugin-tarot==0.4.0.post4
 nonebot-plugin-theworld==0.1.1
 nonebot-plugin-tortoise-orm==0.1.4
