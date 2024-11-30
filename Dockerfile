@@ -9,8 +9,7 @@ COPY ./pyproject.toml \
   /wheel/
 
 
-RUN python -m pip wheel --wheel-dir=/wheel --requirement ./requirements.txt \
-  && rm -rf ~/.cache/pip
+RUN python -m pip wheel --wheel-dir=/wheel --no-cache-dir --requirement ./requirements.txt
 
 RUN python -m pipx run --no-cache nb-cli generate -f /tmp/bot.py
 
@@ -33,7 +32,7 @@ COPY ./docker/_main.py /app
 COPY --from=requirements_stage /wheel /wheel
 
 RUN pip install --no-cache-dir gunicorn uvicorn[standard] nonebot2 \
-  && pip install --no-cache-dir --no-index --force-reinstall --find-links=/wheel -r /wheel/requirements.txt && rm -rf /wheel 
+  && pip install --no-cache-dir --no-index --force-reinstall --find-links=/wheel -r /wheel/requirements.txt && rm -rf /wheel
 COPY . /app/
 
 CMD ["/start.sh"]
