@@ -2,6 +2,10 @@
   black_list: []
   mode: 0
   white_list: []
+abstinence:
+  black_list: []
+  mode: 0
+  white_list: []
 ace_attorney_dialog:
   black_list: []
   mode: 0
@@ -19,6 +23,10 @@ addiction:
   mode: 0
   white_list: []
 alike:
+  black_list: []
+  mode: 0
+  white_list: []
+alipay:
   black_list: []
   mode: 0
   white_list: []
@@ -42,11 +50,19 @@ applaud:
   black_list: []
   mode: 0
   white_list: []
+arona_throw:
+  black_list: []
+  mode: 0
+  white_list: []
 ascension:
   black_list: []
   mode: 0
   white_list: []
 ask:
+  black_list: []
+  mode: 0
+  white_list: []
+atri_pillow:
   black_list: []
   mode: 0
   white_list: []
@@ -67,6 +83,10 @@ beat_up:
   mode: 0
   white_list: []
 bite:
+  black_list: []
+  mode: 0
+  white_list: []
+blamed_mahiro:
   black_list: []
   mode: 0
   white_list: []
@@ -102,6 +122,10 @@ capoo_draw:
   black_list: []
   mode: 0
   white_list: []
+capoo_point:
+  black_list: []
+  mode: 0
+  white_list: []
 capoo_rip:
   black_list: []
   mode: 0
@@ -114,11 +138,19 @@ capoo_say:
   black_list: []
   mode: 0
   white_list: []
+capoo_stew:
+  black_list: []
+  mode: 0
+  white_list: []
 capoo_strike:
   black_list: []
   mode: 0
   white_list: []
 captain:
+  black_list: []
+  mode: 0
+  white_list: []
+caused_by_this:
   black_list: []
   mode: 0
   white_list: []
@@ -142,7 +174,15 @@ china_flag:
   black_list: []
   mode: 0
   white_list: []
+clauvio_twist:
+  black_list: []
+  mode: 0
+  white_list: []
 clown:
+  black_list: []
+  mode: 0
+  white_list: []
+clown_mask:
   black_list: []
   mode: 0
   white_list: []
@@ -202,6 +242,10 @@ dont_go_near:
   black_list: []
   mode: 0
   white_list: []
+dont_press:
+  black_list: []
+  mode: 0
+  white_list: []
 dont_touch:
   black_list: []
   mode: 0
@@ -211,6 +255,18 @@ douyin:
   mode: 0
   white_list: []
 eat:
+  black_list: []
+  mode: 0
+  white_list: []
+emperor_dragon:
+  black_list: []
+  mode: 0
+  white_list: []
+erised_mirror:
+  black_list: []
+  mode: 0
+  white_list: []
+fade_away:
   black_list: []
   mode: 0
   white_list: []
@@ -246,6 +302,10 @@ flash_blind:
   black_list: []
   mode: 0
   white_list: []
+flush:
+  black_list: []
+  mode: 0
+  white_list: []
 follow:
   black_list: []
   mode: 0
@@ -262,6 +322,10 @@ garbage:
   black_list: []
   mode: 0
   white_list: []
+genshin_eat:
+  black_list: []
+  mode: 0
+  white_list: []
 genshin_start:
   black_list: []
   mode: 0
@@ -274,6 +338,14 @@ google:
   black_list: []
   mode: 0
   white_list: []
+google_captcha:
+  black_list: []
+  mode: 0
+  white_list: []
+gorilla_throw:
+  black_list: []
+  mode: 0
+  white_list: []
 guichu:
   black_list: []
   mode: 0
@@ -283,6 +355,10 @@ gun:
   mode: 0
   white_list: []
 hammer:
+  black_list: []
+  mode: 0
+  white_list: []
+haruhi_raise:
   black_list: []
   mode: 0
   white_list: []
@@ -302,6 +378,10 @@ hold_tight:
   black_list: []
   mode: 0
   white_list: []
+hug:
+  black_list: []
+  mode: 0
+  white_list: []
 hug_leg:
   black_list: []
   mode: 0
@@ -318,7 +398,19 @@ incivilization:
   black_list: []
   mode: 0
   white_list: []
+intel_inside:
+  black_list: []
+  mode: 0
+  white_list: []
 interview:
+  black_list: []
+  mode: 0
+  white_list: []
+jerry_stare:
+  black_list: []
+  mode: 0
+  white_list: []
+jiamianqishi:
   black_list: []
   mode: 0
   white_list: []
@@ -326,7 +418,15 @@ jiji_king:
   black_list: []
   mode: 0
   white_list: []
+jinhsi:
+  black_list: []
+  mode: 0
+  white_list: []
 jiujiu:
+  black_list: []
+  mode: 0
+  white_list: []
+jump:
   black_list: []
   mode: 0
   white_list: []
@@ -339,6 +439,10 @@ karyl_point:
   mode: 0
   white_list: []
 keep_away:
+  black_list: []
+  mode: 0
+  white_list: []
+keep_your_money:
   black_list: []
   mode: 0
   white_list: []
@@ -362,7 +466,31 @@ knock:
   black_list: []
   mode: 0
   white_list: []
+kokona_say:
+  black_list: []
+  mode: 0
+  white_list: []
+kokona_seal:
+  black_list: []
+  mode: 0
+  white_list: []
+konata_watch:
+  black_list: []
+  mode: 0
+  white_list: []
 learn:
+  black_list: []
+  mode: 0
+  white_list: []
+left_right_jump:
+  black_list: []
+  mode: 0
+  white_list: []
+let_me_in:
+  black_list: []
+  mode: 0
+  white_list: []
+lick_candy:
   black_list: []
   mode: 0
   white_list: []
@@ -390,6 +518,10 @@ look_this_icon:
   black_list: []
   mode: 0
   white_list: []
+loop:
+  black_list: []
+  mode: 0
+  white_list: []
 lost_dog:
   black_list: []
   mode: 0
@@ -403,6 +535,10 @@ luoyonghao_say:
   mode: 0
   white_list: []
 luxun_say:
+  black_list: []
+  mode: 0
+  white_list: []
+mahiro_readbook:
   black_list: []
   mode: 0
   white_list: []
@@ -446,7 +582,15 @@ my_friend:
   black_list: []
   mode: 0
   white_list: []
+my_opinion:
+  black_list: []
+  mode: 0
+  white_list: []
 my_wife:
+  black_list: []
+  mode: 0
+  white_list: []
+nahida_bite:
   black_list: []
   mode: 0
   white_list: []
@@ -502,6 +646,10 @@ overtime:
   black_list: []
   mode: 0
   white_list: []
+p5letter:
+  black_list: []
+  mode: 0
+  white_list: []
 paint:
   black_list: []
   mode: 0
@@ -510,11 +658,19 @@ painter:
   black_list: []
   mode: 0
   white_list: []
+panda_dragon_figure:
+  black_list: []
+  mode: 0
+  white_list: []
 pass_the_buck:
   black_list: []
   mode: 0
   white_list: []
 pat:
+  black_list: []
+  mode: 0
+  white_list: []
+pepe_raise:
   black_list: []
   mode: 0
   white_list: []
@@ -530,11 +686,27 @@ pinch:
   black_list: []
   mode: 0
   white_list: []
+pixelate:
+  black_list: []
+  mode: 0
+  white_list: []
+pjsk:
+  black_list: []
+  mode: 0
+  white_list: []
+plana_eat:
+  black_list: []
+  mode: 0
+  white_list: []
 play:
   black_list: []
   mode: 0
   white_list: []
 play_game:
+  black_list: []
+  mode: 0
+  white_list: []
+play_together:
   black_list: []
   mode: 0
   white_list: []
@@ -571,6 +743,10 @@ psyduck:
   mode: 0
   white_list: []
 punch:
+  black_list: []
+  mode: 0
+  white_list: []
+pyramid:
   black_list: []
   mode: 0
   white_list: []
@@ -622,7 +798,15 @@ run:
   black_list: []
   mode: 0
   white_list: []
+run_away:
+  black_list: []
+  mode: 0
+  white_list: []
 safe_sense:
+  black_list: []
+  mode: 0
+  white_list: []
+saimin_app:
   black_list: []
   mode: 0
   white_list: []
@@ -635,6 +819,18 @@ scratchcard:
   mode: 0
   white_list: []
 scroll:
+  black_list: []
+  mode: 0
+  white_list: []
+sekaiichi_kawaii:
+  black_list: []
+  mode: 0
+  white_list: []
+shake_head:
+  black_list: []
+  mode: 0
+  white_list: []
+shiroko_pero:
   black_list: []
   mode: 0
   white_list: []
@@ -667,6 +863,18 @@ slogan:
   mode: 0
   white_list: []
 smash:
+  black_list: []
+  mode: 0
+  white_list: []
+sold_out:
+  black_list: []
+  mode: 0
+  white_list: []
+speechless:
+  black_list: []
+  mode: 0
+  white_list: []
+steam_message:
   black_list: []
   mode: 0
   white_list: []
@@ -718,6 +926,10 @@ telescope:
   black_list: []
   mode: 0
   white_list: []
+thermometer_gun:
+  black_list: []
+  mode: 0
+  white_list: []
 think_what:
   black_list: []
   mode: 0
@@ -746,6 +958,10 @@ tightly:
   black_list: []
   mode: 0
   white_list: []
+time_to_go:
+  black_list: []
+  mode: 0
+  white_list: []
 together:
   black_list: []
   mode: 0
@@ -755,6 +971,10 @@ tom_tease:
   mode: 0
   white_list: []
 tomb_yeah:
+  black_list: []
+  mode: 0
+  white_list: []
+top_notch:
   black_list: []
   mode: 0
   white_list: []
@@ -771,6 +991,10 @@ twist:
   mode: 0
   white_list: []
 universal:
+  black_list: []
+  mode: 0
+  white_list: []
+upside_down:
   black_list: []
   mode: 0
   white_list: []
@@ -803,6 +1027,10 @@ washer:
   mode: 0
   white_list: []
 wave:
+  black_list: []
+  mode: 0
+  white_list: []
+wechat_pay:
   black_list: []
   mode: 0
   white_list: []
@@ -850,7 +1078,23 @@ wunian:
   black_list: []
   mode: 0
   white_list: []
+wuyage:
+  black_list: []
+  mode: 0
+  white_list: []
 yalidaye:
+  black_list: []
+  mode: 0
+  white_list: []
+yeshu:
+  black_list: []
+  mode: 0
+  white_list: []
+you_should_call:
+  black_list: []
+  mode: 0
+  white_list: []
+your_new_years_eve:
   black_list: []
   mode: 0
   white_list: []

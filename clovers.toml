@@ -3,3 +3,7 @@ nonebot_plugin_clovers = "{\"plugins_path\": \"./clovers_library\", \"plugins_li
 ["plugins.nonebot_plugin_clovers"]
 plugins_path = "./clovers_library"
 plugins_list = []
+
+[clovers]
+plugins_path = "./clovers_library"
+plugins_list = []
