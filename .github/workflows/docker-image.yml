@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       platforms:
-        type: multi_static_string
+        type: choice
         required: true
         options:
           - name: 'Linux/amd64'
