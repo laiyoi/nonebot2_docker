@@ -5,6 +5,16 @@ on:
     tags:
       - "v*"
   workflow_dispatch:
+    inputs:
+      platforms:
+        type: multi_static_string
+        required: true
+        options:
+          - name: 'Linux/amd64'
+            value: 'linux/amd64'
+          - name: 'Linux/arm64'
+            value: 'linux/arm64'
+
 
 jobs:
   docker:
@@ -42,7 +52,7 @@ jobs:
         with:
           context: .
           push: true
-          platforms: linux/arm64, linux/amd64
+          platforms: ${{ github.event.inputs.platforms }}
           tags: laiyoi/nonebot2_docker:latest
           labels: ${{ steps.metadata.outputs.labels }}
           cache-from: type=gha
