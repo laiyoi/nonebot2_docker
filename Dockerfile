@@ -2,6 +2,8 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
+COPY . /app/
+
 ENV TZ Asia/Shanghai
 ENV PYTHONPATH=/app
 
@@ -15,10 +17,9 @@ ENV MAX_WORKERS 1
 COPY ./docker/_main.py /app
 #COPY --from=requirements_stage /wheel /wheel
 RUN python -m pip install --user pipx \
-  && python -m pipx run --no-cache nb-cli generate -f /tmp/bot.py \
+  && python -m pipx run --no-cache nb-cli generate -f /app/bot.py \
   && pip install --no-cache-dir gunicorn uvicorn[standard] nonebot2 \
 # && pip install --no-cache-dir --no-index --force-reinstall --find-links=/wheel -r /wheel/requirements.txt && rm -rf /wheel
   && pip install --no-cache-dir --force-reinstall -r /wheel/requirements.txt && rm -rf /wheel
-COPY . /app/
 
 CMD ["/start.sh"]
