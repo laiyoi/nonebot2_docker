@@ -248,9 +248,9 @@ tls-client==1.0.1
 toml==0.10.2
 tomli==2.0.1
 tomlkit==0.13.0
-torch==2.5.1
-torchmetrics==1.6.1
-torchvision==0.20.1
+#torch==2.5.1
+#torchmetrics==1.6.1
+#torchvision==0.20.1
 tortoise-orm==0.20.1
 tqdm==4.67.1
 types-python-dateutil==2.9.0.20241206
