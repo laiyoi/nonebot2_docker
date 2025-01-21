@@ -9,7 +9,7 @@ ENV PYTHONPATH=/app
 
 COPY ./docker/gunicorn_conf.py ./docker/start.sh /
 RUN apt-get update && apt-get install -y gcc \
-  chmod +x /start.sh
+  && chmod +x /start.sh
 
 ENV APP_MODULE _main:app
 ENV MAX_WORKERS 1
