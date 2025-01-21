@@ -179,7 +179,7 @@ playwright==1.43.0
 poetry
 poetry-core
 pooch==1.8.2
-praat-parselmouth==0.4.5
+#praat-parselmouth==0.4.5
 prompt_toolkit==3.0.48
 propcache==0.2.1
 protobuf==5.29.3
