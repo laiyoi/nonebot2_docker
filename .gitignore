@@ -9,3 +9,4 @@ plugins/#/
 data/zxui/web_ui/
 localstore/nonebot-plugin-orm/migrations/nonebot_plugin_memes/60dbbe448c16_data_migrate.py
 Dockerfile1
+log.log
