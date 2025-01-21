@@ -10,9 +10,9 @@ on:
         type: choice
         required: true
         options:
+          - 'linux/amd64, linux/arm64'
           - 'linux/amd64'
           - 'linux/arm64'
-          - 'linux/amd64, linux/arm64'
 
 
 jobs:
