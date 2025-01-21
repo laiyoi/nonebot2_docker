@@ -178,7 +178,7 @@ pooch==1.8.2
 prompt_toolkit==3.0.48
 propcache==0.2.1
 protobuf==5.29.3
-psola==0.0.1
+#psola==0.0.1
 psutil==6.1.1
 py-cpuinfo==9.0.0
 pyasn1==0.6.1
