@@ -124,7 +124,7 @@ nonebot-plugin-maze==0.2.4
 nonebot-plugin-miragetank==0.2.1
 nonebot-plugin-mypower==0.1.6
 nonebot-plugin-orm==0.7.6
-nonebot-plugin-ottohzys==0.2.1.post1
+#nonebot-plugin-ottohzys==0.2.1.post1
 nonebot-plugin-pjsk==0.4.1
 #nonebot-plugin-pokesomeone==0.1.1
 nonebot-plugin-sd-webui==0.1.2
