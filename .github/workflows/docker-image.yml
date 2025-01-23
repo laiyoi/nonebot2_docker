@@ -4,6 +4,8 @@ on:
   push:
     tags:
       - "v*"
+      - "*sync"
+      - "*update"
   workflow_dispatch:
 
 jobs:

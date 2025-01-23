@@ -8,7 +8,7 @@ ENV TZ Asia/Shanghai
 ENV PYTHONPATH=/app
 
 COPY ./docker/gunicorn_conf.py ./docker/start.sh /
-RUN apt-get update && apt-get install -y gcc libjpeg-dev zlib1g-dev build-essential \
+RUN apt-get update && apt-get install -y gcc libjpeg-dev zlib1g-dev build-essential ttf-mscorefonts-installer libgl1-mesa-glx \
   && chmod +x /start.sh
 
 ENV APP_MODULE _main:app
@@ -22,7 +22,7 @@ RUN python -m pip install --user pipx \
   && pip install --no-cache-dir gunicorn uvicorn[standard] nonebot2 \
 # && pip install --no-cache-dir --no-index --force-reinstall --find-links=/wheel -r /wheel/requirements.txt && rm -rf /wheel
   && pip install --no-cache-dir nonebot-plugin-crazy-thursday nonebot-plugin-tarot \
-  && pip install --no-cache-dir -r /app/requirements.txt 
+  && pip install --no-cache-dir -r /app/requirements.txt
   # && rm -rf /wheel
 
 CMD ["/start.sh"]
