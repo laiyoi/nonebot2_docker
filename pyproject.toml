@@ -7,7 +7,7 @@ description = "test"
 adapters = [
     { name = "OneBot V11", module_name = "nonebot.adapters.onebot.v11" }
 ]
-plugins = ["nonebot_plugin_smart_reply", "nonebot_plugin_crazy_thursday", "nonebot_plugin_memes", "nonebot-plugin-wolf-kill", "nonebot_plugin_miragetank", "nonebot_plugin_tarot", "nonebot_plugin_maze", "nonebot_plugin_impact", "nonebot_plugin_manager", "nonebot_plugin_remake", "nonebot_plugin_ottohzys", "nonebot_plugin_batitle", "nonebot_plugin_pjsk", "nonebot_plugin_mypower", "nonebot_plugin_longtu", "nonebot_plugin_localstore", "nonebot_plugin_chikari_yinpa", "nonebot_plugin_diffsinger", "nonebot_plugin_yinyu", "nonebot_plugin_wordcloud", "nonebot_plugin_asmr", "nonebot_plugin_anymate", "nonebot_plugin_weiweibot", "nonebot_plugin_htmlrender", "nonebot_plugin_wordle_simple", "nonebot_plugin_zxui", "nonebot_plugin_emlp_Lightweight", "nonebot_plugin_game_collection", "nonebot_plugin_apscheduler", "nonebot_plugin_gpt"]
+plugins = ["nonebot_plugin_smart_reply", "nonebot_plugin_crazy_thursday", "nonebot_plugin_memes", "nonebot-plugin-wolf-kill", "nonebot_plugin_miragetank", "nonebot_plugin_tarot", "nonebot_plugin_maze", "nonebot_plugin_impact", "nonebot_plugin_manager", "nonebot_plugin_remake", "nonebot_plugin_ottohzys", "nonebot_plugin_batitle", "nonebot_plugin_pjsk", "nonebot_plugin_mypower", "nonebot_plugin_longtu", "nonebot_plugin_localstore", "nonebot_plugin_chikari_yinpa", "nonebot_plugin_diffsinger", "nonebot_plugin_yinyu", "nonebot_plugin_wordcloud", "nonebot_plugin_asmr", "nonebot_plugin_anymate", "nonebot_plugin_htmlrender", "nonebot_plugin_zxui", "nonebot_plugin_emlp_Lightweight", "nonebot_plugin_game_collection", "nonebot_plugin_apscheduler", "nonebot_plugin_gpt"]
 plugin_dirs = ["plugins"]
 builtin_plugins = ["echo"]
 

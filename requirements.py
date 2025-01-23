@@ -1,6 +1,11 @@
-import tomli, os, tqdm
+import os, tqdm
+try:  # pragma: py-gte-311
+    import tomllib  # pyright: ignore[reportMissingImports]
+except ModuleNotFoundError:  # pragma: py-lt-311
+    import tomli as tomllib  # pyright: ignore[reportMissingImports]
+
 with open("./pyproject.toml", "r", encoding="utf-8") as f:
-        data = tomli.loads(f.read())
+        data = tomllib.loads(f.read())
 
 nonebot_data = data.get("tool", {}).get("nonebot")
 plugins = nonebot_data.get("plugins", [])
