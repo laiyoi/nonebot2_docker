@@ -71,7 +71,7 @@ meme-generator==0.1.10
 more-itertools==10.6.0
 mplfinance==0.12.10b0
 msgpack==1.1.0
-msvc_runtime==14.42.34433
+#msvc_runtime==14.42.34433
 multidict==6.1.0
 nepattern==0.7.7
 nonebot-adapter-onebot==2.4.6
