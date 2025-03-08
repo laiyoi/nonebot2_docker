@@ -1,6 +1,72 @@
 {
-    "user_dict": {},
-    "group_dict": {},
-    "account_dict": {},
+    "user_dict": {
+        "3596094466": {
+            "id": "3596094466",
+            "name": "斧蛤",
+            "avatar_url": "",
+            "connect": "563484241",
+            "bank": {},
+            "invest": {},
+            "extra": {},
+            "accounts_map": {
+                "563484241": "3596094466-563484241"
+            },
+            "message": []
+        },
+        "3096309991": {
+            "id": "3096309991",
+            "name": "lilimasteu",
+            "avatar_url": "",
+            "connect": "",
+            "bank": {},
+            "invest": {},
+            "extra": {},
+            "accounts_map": {
+                "563484241": "3096309991-563484241"
+            },
+            "message": []
+        }
+    },
+    "group_dict": {
+        "563484241": {
+            "id": "563484241",
+            "name": null,
+            "avatar_url": null,
+            "level": 1,
+            "stock": null,
+            "bank": {},
+            "invest": {},
+            "extra": {
+                "revolution_achieve": {}
+            },
+            "accounts_map": {
+                "3596094466": "3596094466-563484241",
+                "3096309991": "3096309991-563484241"
+            },
+            "message": []
+        }
+    },
+    "account_dict": {
+        "3596094466-563484241": {
+            "user_id": "3596094466",
+            "group_id": "563484241",
+            "name": "斧蛤",
+            "sign_in": "2025-01-24T19:01:29.144151",
+            "bank": {},
+            "extra": {
+                "revolution": true
+            }
+        },
+        "3096309991-563484241": {
+            "user_id": "3096309991",
+            "group_id": "563484241",
+            "name": "lilimasteu",
+            "sign_in": "2025-01-24T23:10:26.344828",
+            "bank": {},
+            "extra": {
+                "revolution": true
+            }
+        }
+    },
     "extra": {}
 }

@@ -21,7 +21,7 @@ BingImageCreator==0.5.0
 certifi==2024.12.14
 cffi==1.17.1
 charset-normalizer==3.4.1
-ChatGPTWeb==0.2.45
+ChatGPTWeb==0.2.46
 click==8.1.8
 clovers==0.1.16
 clovers-apscheduler==0.1.4
@@ -84,7 +84,7 @@ nonebot-plugin-cesaa==0.5.0
 nonebot-plugin-clovers==0.1.6
 nonebot-plugin-diffsinger==0.1.13
 nonebot-plugin-game-collection==3.0.5
-nonebot-plugin-gpt==0.0.42
+nonebot-plugin-gpt==0.0.43
 nonebot-plugin-htmlrender==0.3.5
 nonebot-plugin-impact==0.12.114514
 nonebot-plugin-localstore==0.7.3
@@ -98,7 +98,7 @@ nonebot-plugin-pjsk==0.4.1
 nonebot-plugin-send-anything-anywhere==0.7.1
 nonebot-plugin-sendmsg-by-bots==0.1.6
 nonebot-plugin-smart-reply==0.15.114514
-#nonebot-plugin-tarot==0.4.0.post4
+nonebot-plugin-tarot==0.4.0.post4
 nonebot-plugin-uninfo==0.6.6
 nonebot-plugin-waiter==0.8.1
 nonebot-plugin-wolf-kill==2.0.4
@@ -109,12 +109,13 @@ nonebot2==2.4.1
 nonebot_plugin_anymate==1.5.8.0
 nonebot_plugin_chatrecorder==0.7.0
 nonebot_plugin_chikari_yinpa==1.4.3
-#nonebot_plugin_crazy_thursday==0.2.8
+nonebot_plugin_crazy_thursday==0.2.8
 nonebot_plugin_emlp_Lightweight==0.1.4
 nonebot_plugin_manager==0.5.16
 nonebot_plugin_memes==0.7.12
 nonebot_plugin_remake==0.4.4
 nonebot_plugin_session==0.3.2
+nonebot_session_to_uninfo==0.0.2
 nonestorage==0.1.0
 numba==0.61.0
 numpy==1.26.4
