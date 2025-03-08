@@ -44,7 +44,6 @@ jobs:
         with:
           context: .
           push: true
-          platforms: ${{ github.event.inputs.platforms }}
           tags: laiyoi/nonebot2_docker:latest
           labels: ${{ steps.metadata.outputs.labels }}
           cache-from: type=gha
