@@ -8,7 +8,7 @@ ENV TZ Asia/Shanghai
 ENV PYTHONPATH=/app
 
 COPY ./docker/gunicorn_conf.py ./docker/start.sh /
-RUN apt-get update && apt-get install -y gcc libjpeg-dev zlib1g-dev build-essential libgl1-mesa-glx \
+RUN apt-get update && apt-get install -y gcc libjpeg-dev zlib1g-dev \
   && chmod +x /start.sh
 
 ENV APP_MODULE _main:app
