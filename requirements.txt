@@ -119,12 +119,12 @@ nonebot-plugin-waiter==0.8.1
 nonebot-plugin-wolf-kill==2.0.4
 nonebot-plugin-wordcloud==0.9.0
 nonebot-plugin-yinyu==0.0.6
-nonebot-plugin-zxui==0.3.7
+#nonebot-plugin-zxui==0.3.7
 nonebot2==2.4.2
 nonebot_plugin_anymate==1.5.8.0
 nonebot_plugin_chatrecorder==0.7.0
 nonebot_plugin_chikari_yinpa==1.4.3
-nonebot_plugin_crazy_thursday==0.2.8
+#nonebot_plugin_crazy_thursday==0.2.8
 nonebot_plugin_dingzhen==1.2.5.1
 nonebot_plugin_emlp_Lightweight==0.1.4
 nonebot_plugin_github_release_notifier==0.1.8.1
