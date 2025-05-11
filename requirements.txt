@@ -1,80 +1,175 @@
+# aiocache==0.12.3
+# aioconsole==0.8.1
+# aiofiles==24.1.0
+# aiohappyeyeballs==2.4.4
+# aiohttp==3.11.11
+# aiosignal==1.3.2
+# aiosqlite==0.21.0
+# aiotieba==4.5.3
+# alembic==1.14.1
+# amis==0.1.1
+# amis-python==1.0.8.post2
+# annotated-types==0.7.0
+# anyio==4.9.0
+# APScheduler==3.11.0
+# arclet-alconna==1.8.37
+# arclet-alconna-tools==0.7.10
+# argcomplete==3.6.0
+# async-lru==2.0.4
+# asyncer==0.0.8
+# asyncmy==0.2.10
+# asyncodbc==0.1.1
+# asyncpg==0.30.0
+# attrs==24.3.0
+# audioread==3.0.1
+# bbcode==1.1.0
+# beautifulsoup4==4.13.4
+# BingImageCreator==0.5.0
+# certifi==2024.12.14
+# cffi==1.17.1
+# charset-normalizer==3.4.1
+# ChatGPTWeb==0.2.46
+# click==8.2.0
+# clovers==0.3.4.post2
+# clovers-apscheduler==0.2.0
+# clovers-leafgame==0.2.4
+# clovers-utils==0.2.3
+# colorama==0.4.6
+# contourpy==1.3.1
+# cryptography==44.0.0
+# cycler==0.12.1
+# dateparser==1.2.0
+# decorator==5.1.1
+# distro==1.9.0
+# ecdsa==0.19.0
+# EdgeGPT==0.13.2
+# emoji==2.14.1
+# exceptiongroup==1.3.0
+# fastapi==0.115.7
+# filetype==1.2.0
+# fonttools==4.57.0
+# frozenlist==1.5.0
+# greenlet==3.0.3
+# h11==0.16.0
+# h2==4.1.0
+# hpack==4.1.0
+# httpcore==1.0.9
+# httptools==0.6.4
+# httpx==0.27.2
+# hyperframe==6.1.0
+# idna==3.10
+# importlib_metadata==8.7.0
+# iso8601==1.1.0
+# jieba==0.42.1
+# Jinja2==3.1.5
+# jiter==0.8.2
+# joblib==1.4.2
+# kiwisolver==1.4.8
+# lazy_loader==0.4
+# librosa==0.10.2.post1
+# llvmlite==0.44.0
+# loguru==0.7.3
+# lxml==5.4.0
+# Mako==1.3.10
+# Markdown==3.7
+# markdown-it-py==3.0.0
+# MarkupSafe==3.0.2
+# matplotlib==3.10.0
+# mdurl==0.1.2
+# meme_generator==0.2.1
+# more-itertools==10.6.0
+# mplfinance==0.12.10b0
+# msgpack==1.1.0
+# msvc_runtime==14.42.34433
+# multidict==6.4.3
+# nepattern==0.7.7
 nonebot-adapter-onebot==2.4.6
 nonebot-adapter-qq==1.6.1
-nonebot-plugin-alconna==0.54.2
+nonebot-plugin-alconna==0.57.6
 nonebot-plugin-apscheduler==0.5.0
+nonebot-plugin-argot==0.1.8
 nonebot-plugin-asmr==0.1.4
+nonebot-plugin-asmr100==0.2.3
 nonebot-plugin-batitle==0.1.6
 nonebot-plugin-cesaa==0.5.0
-nonebot-plugin-clovers==0.1.6
+nonebot-plugin-clovers==0.2.6
 nonebot-plugin-diffsinger==0.1.13
-nonebot-plugin-game-collection==3.0.5
-nonebot-plugin-gpt==0.0.43
-nonebot-plugin-htmlrender==0.3.5
+nonebot-plugin-game-collection==3.1.2
+nonebot-plugin-gpt
+nonebot-plugin-htmlrender==0.6.5
 nonebot-plugin-impact==0.12.114514
-nonebot-plugin-localstore==0.7.3
+nonebot-plugin-localstore==0.7.4
 nonebot-plugin-longtu==0.1.1.post1
 nonebot-plugin-maze==0.2.4
 nonebot-plugin-miragetank==0.2.1
 nonebot-plugin-mypower==0.1.6
-nonebot-plugin-orm==0.7.6
+nonebot-plugin-orm==0.7.7
 nonebot-plugin-ottohzys==0.2.1.post1
 nonebot-plugin-pjsk==0.4.1
 nonebot-plugin-send-anything-anywhere==0.7.1
 nonebot-plugin-sendmsg-by-bots==0.1.6
+nonebot-plugin-sideload==0.1.7
 nonebot-plugin-smart-reply==0.15.114514
+nonebot-plugin-steam-game-status==0.1.14
 #nonebot-plugin-tarot==0.4.0.post4
-nonebot-plugin-uninfo==0.6.6
+nonebot-plugin-tieba-monitor==0.1.7
+nonebot-plugin-tortoise-orm==0.1.4
+nonebot-plugin-uninfo==0.7.3
 nonebot-plugin-waiter==0.8.1
 nonebot-plugin-wolf-kill==2.0.4
 nonebot-plugin-wordcloud==0.9.0
 nonebot-plugin-yinyu==0.0.6
-nonebot-plugin-zxui==0.3.5
-nonebot2==2.4.1
+nonebot-plugin-zxui==0.3.7
+nonebot2==2.4.2
 nonebot_plugin_anymate==1.5.8.0
 nonebot_plugin_chatrecorder==0.7.0
 nonebot_plugin_chikari_yinpa==1.4.3
-#nonebot_plugin_crazy_thursday==0.2.8
+nonebot_plugin_crazy_thursday==0.2.8
+nonebot_plugin_dingzhen==1.2.5.1
 nonebot_plugin_emlp_Lightweight==0.1.4
+nonebot_plugin_github_release_notifier==0.1.8.1
 nonebot_plugin_manager==0.5.16
-nonebot_plugin_memes==0.7.12
+nonebot_plugin_memes==0.8.1
 nonebot_plugin_remake==0.4.4
 nonebot_plugin_session==0.3.2
 nonebot_session_to_uninfo==0.0.2
 nonestorage==0.1.0
 numba==0.61.0
-numpy==1.26.4
+numpy==2.1.3
 openai==1.60.0
 OpenAIAuth==3.0.0
-#opencv-python-headless==4.11.0.86
+opencv-python-headless==4.11.0.86
 packaging==24.2
 pandas==2.2.3
-#pil-utils==0.2.2
-#pillow==10.4.0
+pil-utils==0.2.2
+pillow==10.4.0
 pipx==1.7.1
 platformdirs==4.3.6
 playwright==1.43.0
 pooch==1.8.2
 praat-parselmouth==0.4.5
 prompt_toolkit==3.0.50
-propcache==0.2.1
+propcache==0.3.1
+protobuf==5.29.4
 psola==0.0.1
 psutil==6.1.1
 pyasn1==0.6.1
 pybind11==2.13.6
 pycparser==2.22
-pydantic==2.10.5
-pydantic_core==2.27.2
+pydantic==2.11.4
+pydantic_core==2.33.2
 pyee==11.1.0
 Pygments==2.19.1
 pygtrie==2.5.0
 pymdown-extensions==10.14.1
+pyodbc==5.2.0
 pypar==0.0.6
 pyparsing==3.2.1
 pypika-tortoise==0.1.6
 pypinyin==0.53.0
 PySocks==1.7.1
 python-dateutil==2.9.0.post0
-python-dotenv==1.0.1
+python-dotenv==1.1.0
 python-jose==3.3.0
 python-markdown-math==0.8
 python-multipart==0.0.20
@@ -99,8 +194,9 @@ skia-python==132.0b11
 sniffio==1.3.1
 socksio==1.0.0
 soundfile==0.13.0
+soupsieve==2.7
 soxr==0.5.0.post1
-SQLAlchemy==2.0.37
+SQLAlchemy==2.0.40
 starlette==0.45.2
 StrEnum==0.4.15
 tarina==0.6.8
@@ -110,7 +206,8 @@ tls-client==1.0.1
 toml==0.10.2
 tortoise-orm==0.20.1
 tqdm==4.67.1
-typing_extensions==4.12.2
+typing-inspection==0.4.0
+typing_extensions==4.13.2
 tzdata==2025.1
 tzlocal==5.2
 ujson==5.10.0
@@ -123,7 +220,7 @@ websockets==14.2
 wheel==0.44.0
 win32_setctime==1.2.0
 wordcloud==1.9.4
-yarl==1.18.3
+yarl==1.20.0
 yinglish==1.0.1
 zhenxun-db-client==0.1.2
 zhenxun-utils==0.2.2
