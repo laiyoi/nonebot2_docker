@@ -113,7 +113,7 @@ nonebot-plugin-smart-reply==0.15.114514
 nonebot-plugin-steam-game-status==0.1.14
 #nonebot-plugin-tarot==0.4.0.post4
 nonebot-plugin-tieba-monitor==0.1.7
-nonebot-plugin-tortoise-orm==0.1.4
+#nonebot-plugin-tortoise-orm==0.1.4
 nonebot-plugin-uninfo==0.7.3
 nonebot-plugin-waiter==0.8.1
 nonebot-plugin-wolf-kill==2.0.4
@@ -204,7 +204,7 @@ threadpoolctl==3.5.0
 tiktoken==0.8.0
 tls-client==1.0.1
 toml==0.10.2
-tortoise-orm==0.20.1
+#tortoise-orm==0.20.1
 tqdm==4.67.1
 typing-inspection==0.4.0
 typing_extensions==4.13.2

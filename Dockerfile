@@ -9,7 +9,7 @@ COPY ./pyproject.toml \
   /wheel/
 
 
-RUN python -m pip wheel --wheel-dir=/wheel --no-cache-dir nonebot-plugin-miragetank nonebot_plugin_crazy_thursday nonebot-plugin-zxui \
+RUN python -m pip wheel --wheel-dir=/wheel --no-cache-dir nonebot-plugin-miragetank nonebot_plugin_crazy_thursday nonebot-plugin-zxui nonebot-plugin-tortoise-orm \
   && python -m pip wheel --wheel-dir=/wheel --no-cache-dir --requirement ./requirements.txt
 
 RUN python -m pipx run --no-cache nb-cli generate -f /tmp/bot.py
