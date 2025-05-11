@@ -7,3 +7,9 @@ plugins_list = []
 [clovers]
 plugins_path = "./clovers_library"
 plugins_list = []
+
+[clovers_leafgame]
+# 默认显示字体
+fontname = "simsun"
+fallback_fonts = [ "Arial", "Tahoma", "Microsoft YaHei", "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC", "Noto Sans SC", "Noto Sans CJK JP", "WenQuanYi Micro Hei", "Apple Color Emoji", "Noto Color Emoji"]
+

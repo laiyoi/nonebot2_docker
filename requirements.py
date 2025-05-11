@@ -11,8 +11,9 @@ nonebot_data = data.get("tool", {}).get("nonebot")
 plugins = nonebot_data.get("plugins", [])
 #创建tqdm进度条
 pbar = tqdm.tqdm(total=len(plugins))
-for plugin in plugins:
-    command = f"pip install --no-cache-dir {plugin} -U -i https://pypi.tuna.tsinghua.edu.cn/simple " #--force"
+for plugin in plugins[::-1]:
+#for plugin in plugins:
+    command = f"pip install {plugin} -U -i https://pypi.tuna.tsinghua.edu.cn/simple"
     #os.system(f'powershell /c "conda activate nb"')
     os.system(command)
 
