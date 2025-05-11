@@ -11,7 +11,7 @@ COPY ./pyproject.toml \
 
 RUN pip install --upgrade pip \
   && python -m pip wheel --wheel-dir=/wheel --no-cache-dir nonebot-plugin-miragetank nonebot_plugin_crazy_thursday nonebot-plugin-zxui nonebot-plugin-tortoise-orm nonebot-plugin-batitle \
-  && python -m pip wheel --wheel-dir=/wheel --no-cache-dir --requirement ./requirements.txt
+  && python -m pip wheel --wheel-dir=/wheel --no-cache-dir --requirement ./requirements.txt \
   && python -m pip wheel --wheel-dir=/wheel --no-cache-dir nonebot-plugin-game-collection nonebot_plugin_memes
 
 RUN python -m pipx run --no-cache nb-cli generate -f /tmp/bot.py
