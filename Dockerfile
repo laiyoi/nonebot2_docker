@@ -42,7 +42,6 @@ RUN pip install --no-cache-dir gunicorn uvicorn[standard] nonebot2 \
   && pip install --no-cache-dir --no-index --force-reinstall --find-links=/wheel nonebot-plugin-game-collection nonebot_plugin_memes \
   && rm -rf /wheel
 COPY . /app/
-RUN mkdir /usr/share/fonts/ \
-  && cp /app/simsun.ttc /usr/share/fonts/simsun.ttc \
-  && fc-cache -f -v 
+RUN mkdir /usr/share/fonts/  \
+  && cp /app/simsun.ttc /usr/share/fonts/simsun.ttc 
 CMD ["/start.sh"]
