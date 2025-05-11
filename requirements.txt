@@ -90,7 +90,7 @@ nonebot-plugin-apscheduler==0.5.0
 nonebot-plugin-argot==0.1.8
 nonebot-plugin-asmr==0.1.4
 nonebot-plugin-asmr100==0.2.3
-nonebot-plugin-batitle==0.1.6
+#nonebot-plugin-batitle==0.1.6
 nonebot-plugin-cesaa==0.5.0
 nonebot-plugin-clovers==0.2.6
 nonebot-plugin-diffsinger==0.1.13
@@ -141,8 +141,8 @@ OpenAIAuth==3.0.0
 opencv-python-headless==4.11.0.86
 packaging==24.2
 pandas==2.2.3
-pil-utils==0.2.2
-pillow==10.4.0
+#pil-utils==0.2.2
+#pillow==10.4.0
 pipx==1.7.1
 platformdirs==4.3.6
 #playwright==1.43.0
